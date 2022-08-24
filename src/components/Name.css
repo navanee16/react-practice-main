@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: cadetblue; */
+
+
+}
+.class1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    padding-top: 90px;
+    display: inline-block;
+}
+/* .class2{
+    border: 2px solid black;
+    background-color: aliceblue;
+    font-size: 30px;
+    padding-top: 90px;
+    width: 200px;
+} */
+.class1:hover{
+    box-shadow: 10px 10px 10px black;
+}
+.class2{
+    width: 250px;
+    height: 250px;
+}
+.class2 img{
+    width: 100%;
+    height: 100%;
+    
+
+}
