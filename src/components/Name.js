@@ -11,7 +11,8 @@ function Food(props){
     
 
 
-return(<div className="container">
+return(
+<div className="container">
         <div className="class1">
             <div className="pic">
                 <img src={props.image}/>
@@ -22,7 +23,7 @@ return(<div className="container">
         
         </div>
      
-
+   
     </div>
     );
 }
